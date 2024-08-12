@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<title>TYFYS</title>
+		<meta name=robots content="none, noarchive, noimageindex">
+	</head>
+	<body style="margin: 0;">
+		<img id="i" src="0.jpg" style="object-fit: contain;"/>
+		<iframe width=0 height=0 src="https://www.youtube.com/embed/3BFTio5296w?autoplay=1&loop=1" style="display: none"></iframe>
+		<script>
+			var is = ["0.jpg", "1.jpg", "2.jpg", "3.jpg"];
+			document.getElementById("i").src = is[Math.floor(Math.random()*is.length)];
+		</script>
+	</body>
+</html>
